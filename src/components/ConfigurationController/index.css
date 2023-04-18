@@ -1,0 +1,31 @@
+/* Write your CSS here */
+.nav-container {
+  background-color: #475569;
+  height: 25vh;
+
+  margin-top: -20px;
+
+  padding-left: 80px;
+
+  padding-top: 20px;
+}
+.label {
+  color: white;
+  font-family: 'roboto';
+  padding-left: 10px;
+  margin-top: 5px;
+}
+.layout-heading {
+  color: white;
+  font-family: 'roboto';
+  font-size: 32px;
+}
+
+@media all and (max-width: 767px) {
+  .nav-container {
+    margin-top: -20px;
+    height: 30vh;
+
+    padding-left: 20px;
+  }
+}
